@@ -50,17 +50,3 @@ export interface YoloDetector {
 	readonly inputSize: number;
 	readonly session: ort.InferenceSession;
 }
-
-export type CaptureSource = CanvasImageSource;
-
-export interface CanvasFrameCapturerOptions {
-	width: number;
-	height: number;
-}
-
-export interface CanvasFrameCapturer {
-	capture(source: CaptureSource): ImageData;
-	readonly width: number;
-	readonly height: number;
-	readonly canvas: HTMLCanvasElement;
-}

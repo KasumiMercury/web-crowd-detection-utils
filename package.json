@@ -24,6 +24,10 @@
 			"types": "./dist/onnx/index.d.ts",
 			"import": "./dist/onnx/index.js"
 		},
+		"./source": {
+			"types": "./dist/source/index.d.ts",
+			"import": "./dist/source/index.js"
+		},
 		"./yolo": {
 			"types": "./dist/yolo/index.d.ts",
 			"import": "./dist/yolo/index.js"
