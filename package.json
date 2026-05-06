@@ -20,6 +20,10 @@
 			"types": "./dist/index.d.ts",
 			"import": "./dist/index.js"
 		},
+		"./bytetrack": {
+			"types": "./dist/bytetrack/index.d.ts",
+			"import": "./dist/bytetrack/index.js"
+		},
 		"./onnx": {
 			"types": "./dist/onnx/index.d.ts",
 			"import": "./dist/onnx/index.js"
