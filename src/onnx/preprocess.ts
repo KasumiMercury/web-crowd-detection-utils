@@ -11,7 +11,8 @@ const DEFAULT_INPUT_SIZE = 640;
  * @remarks
  * This function only allocates; it does not touch any image data. Use it when you
  * want to own a buffer and pass it to {@link rgbaToFloat32Chw} via `options.buffer`,
- * or when implementing your own preprocessing loop.
+ * or when implementing your own preprocessing loop. For the common case of bundling
+ * one owned buffer with its conversion call, prefer {@link createPreprocessor}.
  *
  * @example
  * ```ts
